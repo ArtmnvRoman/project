@@ -147,6 +147,11 @@ button[type="submit"]:hover {
 
 /* Адаптив для планшетов */
 @media (max-width: 768px) {
+    header {
+        position: static;
+        z-index: 1;
+    }
+    
     nav ul {
         flex-direction: column;
     }
@@ -187,6 +192,8 @@ button[type="submit"]:hover {
 @media (max-width: 480px) {
     header {
         padding: 10px;
+        position: static;
+        z-index: 1;
     }
 
     nav ul {
