@@ -38,6 +38,6 @@ function validateEmail(email) {
 }
 
 function validatePhone(phone) {
-    const re = /\+7[0-9]{10}/;
+    const re = /8[0-9]{10}/;
     return re.test(phone);
 }
